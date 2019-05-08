@@ -1,0 +1,14 @@
+C:\Users\50068691866\Desktop\Senai_Roman_Desafio_Matilha\Senai_Roman_Desafio_Matilha\bin\Debug\netcoreapp2.1\Senai_Roman_Desafio_Matilha.deps.json
+C:\Users\50068691866\Desktop\Senai_Roman_Desafio_Matilha\Senai_Roman_Desafio_Matilha\bin\Debug\netcoreapp2.1\Senai_Roman_Desafio_Matilha.runtimeconfig.json
+C:\Users\50068691866\Desktop\Senai_Roman_Desafio_Matilha\Senai_Roman_Desafio_Matilha\bin\Debug\netcoreapp2.1\Senai_Roman_Desafio_Matilha.runtimeconfig.dev.json
+C:\Users\50068691866\Desktop\Senai_Roman_Desafio_Matilha\Senai_Roman_Desafio_Matilha\bin\Debug\netcoreapp2.1\Senai_Roman_Desafio_Matilha.dll
+C:\Users\50068691866\Desktop\Senai_Roman_Desafio_Matilha\Senai_Roman_Desafio_Matilha\obj\Debug\netcoreapp2.1\Senai_Roman_Desafio_Matilha.csprojAssemblyReference.cache
+C:\Users\50068691866\Desktop\Senai_Roman_Desafio_Matilha\Senai_Roman_Desafio_Matilha\obj\Debug\netcoreapp2.1\Senai_Roman_Desafio_Matilha.csproj.CoreCompileInputs.cache
+C:\Users\50068691866\Desktop\Senai_Roman_Desafio_Matilha\Senai_Roman_Desafio_Matilha\obj\Debug\netcoreapp2.1\Senai_Roman_Desafio_Matilha.RazorAssemblyInfo.cache
+C:\Users\50068691866\Desktop\Senai_Roman_Desafio_Matilha\Senai_Roman_Desafio_Matilha\obj\Debug\netcoreapp2.1\Senai_Roman_Desafio_Matilha.RazorAssemblyInfo.cs
+C:\Users\50068691866\Desktop\Senai_Roman_Desafio_Matilha\Senai_Roman_Desafio_Matilha\obj\Debug\netcoreapp2.1\Senai_Roman_Desafio_Matilha.AssemblyInfoInputs.cache
+C:\Users\50068691866\Desktop\Senai_Roman_Desafio_Matilha\Senai_Roman_Desafio_Matilha\obj\Debug\netcoreapp2.1\Senai_Roman_Desafio_Matilha.AssemblyInfo.cs
+C:\Users\50068691866\Desktop\Senai_Roman_Desafio_Matilha\Senai_Roman_Desafio_Matilha\obj\Debug\netcoreapp2.1\Senai_Roman_Desafio_Matilha.RazorTargetAssemblyInfo.cache
+C:\Users\50068691866\Desktop\Senai_Roman_Desafio_Matilha\Senai_Roman_Desafio_Matilha\bin\Debug\netcoreapp2.1\Senai_Roman_Desafio_Matilha.pdb
+C:\Users\50068691866\Desktop\Senai_Roman_Desafio_Matilha\Senai_Roman_Desafio_Matilha\obj\Debug\netcoreapp2.1\Senai_Roman_Desafio_Matilha.dll
+C:\Users\50068691866\Desktop\Senai_Roman_Desafio_Matilha\Senai_Roman_Desafio_Matilha\obj\Debug\netcoreapp2.1\Senai_Roman_Desafio_Matilha.pdb
