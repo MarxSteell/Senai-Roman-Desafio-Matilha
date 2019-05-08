@@ -12644,23 +12644,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\50068691866\\.nuget\\packages\\": {},
+    "C:\\Users\\52742298835\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\50068691866\\Desktop\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha.csproj",
+      "projectUniqueName": "C:\\Users\\52742298835\\Desktop\\Senai-Roman\\Senai-Roman-Desafio-Matilha\\API\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha.csproj",
       "projectName": "Senai_Roman_Desafio_Matilha",
-      "projectPath": "C:\\Users\\50068691866\\Desktop\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha.csproj",
-      "packagesPath": "C:\\Users\\50068691866\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\50068691866\\Desktop\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha\\obj\\",
+      "projectPath": "C:\\Users\\52742298835\\Desktop\\Senai-Roman\\Senai-Roman-Desafio-Matilha\\API\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha.csproj",
+      "packagesPath": "C:\\Users\\52742298835\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\52742298835\\Desktop\\Senai-Roman\\Senai-Roman-Desafio-Matilha\\API\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\50068691866\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\52742298835\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
