@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-import React,{Component} from 'react';
-import{ Text, Image, StyleSheet, View, FlatList} from "react-native";
-
-class cadastrar extends Component{
-
-    render(){
-        return(
-            <Text>cadastrar</Text>
-=======
 import React, { Component } from 'react';
 import { Text, Image, StyleSheet, View, FlatList } from "react-native";
 import Cabecalho from '../componentes/cabecalho'
@@ -32,13 +22,10 @@ class cadastrar extends Component {
                     placeholder="Tema"
                 />
             </View>
->>>>>>> holanda
         );
     }
 }
 
-<<<<<<< HEAD
-=======
 const styles = StyleSheet.create({
     titulo: {
         textAlign: "center",
@@ -54,5 +41,4 @@ const styles = StyleSheet.create({
     }
 });
 
->>>>>>> holanda
 export default cadastrar;

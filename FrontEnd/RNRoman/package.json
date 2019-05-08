@@ -10,17 +10,8 @@
     "axios": "^0.18.0",
     "link": "^0.1.5",
     "react": "16.8.3",
-<<<<<<< holanda
-    "react-native": "^0.59.5",
-<<<<<<< HEAD
-    "react-native-gesture-handler": "^1.2.1",
-=======
-    "react-native-gesture-handler": "^1.2.0",
-=======
     "react-native": "^0.59.8",
     "react-native-gesture-handler": "^1.2.1",
->>>>>>> local
->>>>>>> holanda
     "react-native-link": "^4.1.0",
     "react-native-textarea": "^1.0.3",
     "react-navigation": "^3.9.1"
