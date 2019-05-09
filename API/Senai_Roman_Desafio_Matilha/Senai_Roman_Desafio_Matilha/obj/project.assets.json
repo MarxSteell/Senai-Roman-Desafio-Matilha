@@ -12650,11 +12650,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\50068691866\\Desktop\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha.csproj",
+      "projectUniqueName": "C:\\Users\\50068691866\\Desktop\\Senai-Roman-Desafio-Matilha\\API\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha.csproj",
       "projectName": "Senai_Roman_Desafio_Matilha",
-      "projectPath": "C:\\Users\\50068691866\\Desktop\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha.csproj",
+      "projectPath": "C:\\Users\\50068691866\\Desktop\\Senai-Roman-Desafio-Matilha\\API\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha.csproj",
       "packagesPath": "C:\\Users\\50068691866\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\50068691866\\Desktop\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha\\obj\\",
+      "outputPath": "C:\\Users\\50068691866\\Desktop\\Senai-Roman-Desafio-Matilha\\API\\Senai_Roman_Desafio_Matilha\\Senai_Roman_Desafio_Matilha\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
