@@ -5,6 +5,9 @@ import api from '../services/api'
 
 
 class Login extends Component{
+    static navigationOptions={
+        header:null
+    };
     constructor(props){
         super(props);
         this.state={
@@ -20,6 +23,7 @@ class Login extends Component{
         });
         const token = resposta.data.token;
         console.warn(token);
+        this.props.navigation.navigate("MainNavigator");
     }
      render(){
         return(
@@ -27,16 +31,16 @@ class Login extends Component{
                 <Cabecalho />
             <Text style={styles.titulo}>Login</Text>
             <TextInput style={styles.input}
-                textContentType="text"
+               
                 onChangeText={email=>this.setState({email})}
                 placeholder="Insira seu Email"
-                type="text"
+               
             />
             <TextInput style={styles.input}
-                textContentType="text"
+                
                 onChangeText={senha=>this.setState({senha})}
                 placeholder="Insira sua Senha"
-                password="true"
+                secureTextEntry={true}
             />
             <TouchableOpacity
                 style={styles.button}
