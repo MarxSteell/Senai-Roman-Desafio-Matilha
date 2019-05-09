@@ -2,17 +2,22 @@ import Login from './pages/login';
 import Listagem from './pages/listagem';
 import Cadastrar from './pages/cadastrar';
 
-import { createBottomTabNavigator, createAppContainer } from "react-navigation";
+import { createBottomTabNavigator, createAppContainer, createStackNavigator, createSwitchNavigator } from "react-navigation";
+
+const AuthStack = createStackNavigator({Login});
 
 const MainNavigator = createBottomTabNavigator(
     {
-        Login,
+       
         Listagem,
         Cadastrar 
     },
-    {
-        initialRouteName: "Login",
-    }
    
 );
-export default createAppContainer(MainNavigator);
+export default createAppContainer(createSwitchNavigator(
+    {
+        MainNavigator,
+        AuthStack
+    },
+    {initialRouteName:"AuthStack"}
+));
