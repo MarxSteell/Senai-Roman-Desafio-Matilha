@@ -1,24 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< Updated upstream
 import React,{Component} from 'react';
 import{ Text, Image, StyleSheet, View, FlatList} from "react-native";
-=======
-=======
->>>>>>> master
-import React, { Component } from 'react';
-import { Text, StyleSheet, View, TouchableOpacity} from "react-native";
 import Cabecalho from '../componentes/cabecalho'
 import { TextInput } from 'react-native-gesture-handler';
-<<<<<<< HEAD
 import api from '../services/api'
 import Axios from 'axios';
-=======
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
 import Textarea from 'react-native-textarea';
->>>>>>> master
->>>>>>> vinicius
 
 export default class cadastrar extends Component {
     constructor(props){

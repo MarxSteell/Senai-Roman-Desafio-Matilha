@@ -29,9 +29,6 @@ class listagem extends Component{
             <Text style={styles.headertxt}>Roman</Text>
             </View>
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
             <Text style={styles.titulo}>{"Projetos".toUpperCase()}</Text>
 
             <Text style={styles.Nome}>{"Nome"}</Text>
@@ -41,13 +38,6 @@ class listagem extends Component{
             <Text style={styles.Tema}>{"Tema"}</Text>
 
             <Text style={styles.Criador}>{"Criador Por"}</Text>
-
-            </View>
->>>>>>> master
-        );
-    }
-=======
-            <Text style={styles.titulo}>{"Projetos".toUpperCase()}</Text>
 
             <View>
                 <FlatList 
@@ -83,7 +73,6 @@ class listagem extends Component{
 
         </View>
     )
->>>>>>> Stashed changes
 }
 
     const styles = StyleSheet.create({
@@ -98,11 +87,6 @@ class listagem extends Component{
             fontSize:22,
             fontWeight:"100",
             fontFamily:"Eras ITC"
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> master
         },
         titulo:{
             fontSize: 20,
@@ -118,28 +102,21 @@ class listagem extends Component{
         },
         Descricao:{
             fontSize:16,
-<<<<<<< HEAD
             marginLeft: 175,
             marginTop:35,
-=======
             marginLeft: 70,
             marginTop:85,
->>>>>>> master
             color: "black"
         },
         Tema:{
             fontSize:16,
             marginLeft: 280,
-<<<<<<< HEAD
             marginTop: -40,
-=======
             marginTop: -128,
->>>>>>> master
             color:"black"
         },
         Criador:{
             fontSize:16,
-<<<<<<< HEAD
             marginLeft:170,
             marginTop: 25,
             color:"black"
@@ -164,13 +141,10 @@ class listagem extends Component{
             height: 10,
             width: 700,
             backgroundColor:"green",
-            marginTop: 10
->>>>>>> Stashed changes
-=======
+            marginTop: 10,
             marginLeft:280,
             marginTop: 85,
             color:"black"
->>>>>>> master
         }
     });
 
