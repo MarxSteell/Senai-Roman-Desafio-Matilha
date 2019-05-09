@@ -13,6 +13,7 @@ const styles = StyleSheet.create({
     header:{
         backgroundColor:"#1B5E20",
         height:50,
+        marginBottom:40
     },
     headertxt:{
         color:"white",
