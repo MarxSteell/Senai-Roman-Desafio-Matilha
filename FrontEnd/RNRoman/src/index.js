@@ -12,6 +12,25 @@ const MainNavigator = createBottomTabNavigator(
         Listagem,
         Cadastrar 
     },
+    {
+        tabBarOptions: {
+           
+            inactiveBackgroundColor: "#1B5E20",
+            activeBackgroundColor: "#115220",
+            style: {
+              height: 50,
+             
+              
+            },
+            labelStyle:{
+                color:"white",
+                fontSize:14,
+                textTransform:"uppercase",
+                position:"relative",
+                bottom:10
+            }
+          }
+    }
    
 );
 export default createAppContainer(createSwitchNavigator(

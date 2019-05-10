@@ -97,7 +97,7 @@ class listagem extends Component{
             fontSize:16,
             marginLeft: 175,
             marginTop:5,
-            marginLeft: 70,
+            marginLeft: 170,
             marginTop:25,
             color: "black"
         },
@@ -120,7 +120,7 @@ class listagem extends Component{
         },
         Descricaoo:{
             fontSize: 15,
-            marginLeft: 6
+            marginLeft: 55
         },
         Temaa:{
             fontSize: 15,

@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import { Text, Image, StyleSheet, View, FlatList,TextInput,Button ,TouchableOpacity} from "react-native";
+import { Text, Image, StyleSheet, View, FlatList,TextInput,Button ,TouchableOpacity,AsyncStorage} from "react-native";
 import Cabecalho from '../componentes/cabecalho'
 import api from '../services/api'
 
@@ -23,6 +23,7 @@ class Login extends Component{
         });
         const token = resposta.data.token;
         console.warn(token);
+        await AsyncStorage.setItem("RomanMatilha",token);
         this.props.navigation.navigate("MainNavigator");
     }
      render(){

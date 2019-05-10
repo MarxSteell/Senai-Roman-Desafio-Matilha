@@ -1,8 +1,9 @@
 import React,{Component} from 'react';
-import{ Text, Image, StyleSheet, View, FlatList,TouchableOpacity} from "react-native";
+import{ Text, Image, StyleSheet, View, FlatList,TouchableOpacity,AsyncStorage} from "react-native";
 import Cabecalho from '../componentes/cabecalho'
 import { TextInput } from 'react-native-gesture-handler';
 import api from '../services/api'
+import jwt from 'jwt-decode';
 
 import Textarea from 'react-native-textarea';
 
@@ -18,16 +19,30 @@ export default class cadastrar extends Component {
         }
     }
     cadastrarProjeto = async() =>{
-        console.warn(this.state.nome+this.state.tema);
-      const resposta=  await api.post("/projetos",{
+       
+        const resposta=  await api.post("/projetos",{
         nome: this.state.nome,
         IdTema: this.state.IdTema,
         descricao: this.state.descricao,
         IdUsuario:this.state.IdUsuario
-        
+       
       });
       console.warn(resposta);
       
+    }
+    buscardados = async ()=>{
+        try {
+            const value = await AsyncStorage.getItem("RomanMatilha");
+            if (value!==null) {
+                this.setState({id:jwt(value).Id})
+            }
+        } catch (error) {
+            
+        }
+        
+    }
+    componentDidMount(){
+        this.buscardados();
     }
 
     render() {
@@ -55,10 +70,12 @@ export default class cadastrar extends Component {
                 />
                 <TextInput
                     style={styles.input}
-            
+                    
                     onChangeText={IdUsuario=>this.setState({IdUsuario})}
-                    placeholder="idusuario"
+                    placeholder="Usuário"
                 />
+                
+             
                 <TouchableOpacity
                     style={styles.button}
                     onPress={this.cadastrarProjeto}
@@ -104,5 +121,9 @@ const styles = StyleSheet.create({
         fontSize:20,
         position:"relative",
         top:5,
+    },
+    ID:{
+        color:"black",
+        backgroundColor:"blue"
     }
 });
