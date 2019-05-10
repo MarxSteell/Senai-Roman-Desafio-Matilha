@@ -30,7 +30,6 @@ namespace Senai_Roman_Desafio_Matilha.Controllers
             }
         }
 
-        [Authorize(Roles="Administrador")]
         [HttpPost]
         public IActionResult Cadastrar (Projetos projeto)
         {
