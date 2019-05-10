@@ -61,12 +61,13 @@ const styles = StyleSheet.create({
         left:170,
         marginTop:50,
         fontSize:30,
+        fontWeight:"300",
         textAlign:'center',
         color:"black",
         borderBottomColor:"#2E7D32",
         borderBottomWidth:2 ,
         width:80,
-        
+        backgroundColor:"#f1f1f1"
     },
     
     input:{

@@ -1,34 +1,33 @@
 import React,{Component} from 'react';
-import{ Text, Image, StyleSheet, View, FlatList} from "react-native";
+import{ Text, Image, StyleSheet, View, FlatList,TouchableOpacity} from "react-native";
 import Cabecalho from '../componentes/cabecalho'
 import { TextInput } from 'react-native-gesture-handler';
 import api from '../services/api'
-import Axios from 'axios';
+
 import Textarea from 'react-native-textarea';
+
 
 export default class cadastrar extends Component {
     constructor(props){
         super(props);
         this.state={
             nome:""
-            ,tema:""
+            ,IdTema:""
             ,descricao:""
+            ,IdUsuario:""
         }
     }
     cadastrarProjeto = async() =>{
-        let dados = {
-            nome: this.state.nome,
-            tema: this.state.tema,
-            descricao: this.state.descricao
-        };
-
-        await Axios.post(api, dados, {
-            headers: {
-                "Content-Type": "application/json"
-            }
-        })
-        .catch(error => console.warn(error))
-        this.props.navigation.navigate('/listagem');
+        console.warn(this.state.nome+this.state.tema);
+      const resposta=  await api.post("/projetos",{
+        nome: this.state.nome,
+        IdTema: this.state.IdTema,
+        descricao: this.state.descricao,
+        IdUsuario:this.state.IdUsuario
+        
+      });
+      console.warn(resposta);
+      
     }
 
     render() {
@@ -38,21 +37,27 @@ export default class cadastrar extends Component {
                 <Text style={styles.titulo}>Cadastrar Projeto</Text>
                 <TextInput
                     style={styles.input}
-                    textContentType="text"
+                    
                     onChangeText={nome=>this.setState({nome})}
                     placeholder="Nome"
                 />
                 <TextInput
                     style={styles.input}
-                    textContentType="text"
-                    onChangeText={tema=>this.setState({tema})}
+                    
+                    onChangeText={IdTema=>this.setState({IdTema})}
                     placeholder="Tema"
                 />
                 <TextInput
                     style={styles.input}
-                    textContentType="text"
+                    
                     onChangeText={descricao=>this.setState({descricao})}
                     placeholder="Descrição"
+                />
+                <TextInput
+                    style={styles.input}
+            
+                    onChangeText={IdUsuario=>this.setState({IdUsuario})}
+                    placeholder="idusuario"
                 />
                 <TouchableOpacity
                     style={styles.button}

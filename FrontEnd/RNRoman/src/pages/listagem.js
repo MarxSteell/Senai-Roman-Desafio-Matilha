@@ -31,14 +31,7 @@ class listagem extends Component{
 
             <Text style={styles.titulo}>{"Projetos".toUpperCase()}</Text>
 
-            <Text style={styles.Nome}>{"Nome"}</Text>
-
-            <Text style={styles.Descricao}>{"Descrição"}</Text>
-
-            <Text style={styles.Tema}>{"Tema"}</Text>
-
-            <Text style={styles.Criador}>{"Criador Por"}</Text>
-
+            
             <View>
                 <FlatList 
                 data={this.state.listaProjetos}
@@ -103,22 +96,22 @@ class listagem extends Component{
         Descricao:{
             fontSize:16,
             marginLeft: 175,
-            marginTop:35,
+            marginTop:5,
             marginLeft: 70,
-            marginTop:85,
+            marginTop:25,
             color: "black"
         },
         Tema:{
             fontSize:16,
             marginLeft: 280,
+            marginTop: -50,
             marginTop: -40,
-            marginTop: -128,
             color:"black"
         },
         Criador:{
             fontSize:16,
             marginLeft:170,
-            marginTop: 25,
+            marginTop: 10,
             color:"black"
         },
         Nomee:{
@@ -142,8 +135,6 @@ class listagem extends Component{
             width: 700,
             backgroundColor:"green",
             marginTop: 10,
-            marginLeft:280,
-            marginTop: 85,
             color:"black"
         }
     });
