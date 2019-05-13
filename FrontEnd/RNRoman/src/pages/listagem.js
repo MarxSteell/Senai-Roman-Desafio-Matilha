@@ -70,11 +70,13 @@ class listagem extends Component{
 
     const styles = StyleSheet.create({
         header:{
-            backgroundColor:"#d3d3d3",
+            backgroundColor:"#ebecea",
+            borderBottomColor:"#b5b5b5",
+            borderBottomWidth:2,
             height:50,
         },
         headertxt:{
-            color:"black",
+            color:"#505050",
             textAlign:"center",
             padding:10,
             fontSize:22,
@@ -131,7 +133,7 @@ class listagem extends Component{
             marginLeft:200
         },
         linha:{
-            height: 10,
+            height: 3,
             width: 700,
             backgroundColor:"green",
             marginTop: 10,

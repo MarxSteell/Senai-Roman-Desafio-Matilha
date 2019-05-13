@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import{ Text, Image, StyleSheet, View, FlatList,TouchableOpacity,AsyncStorage} from "react-native";
-import Cabecalho from '../componentes/cabecalho'
+
 import { TextInput } from 'react-native-gesture-handler';
 import api from '../services/api'
 import jwt from 'jwt-decode';
@@ -34,7 +34,9 @@ export default class cadastrar extends Component {
         try {
             const value = await AsyncStorage.getItem("RomanMatilha");
             if (value!==null) {
-                this.setState({id:jwt(value).Id})
+                this.setState({IdUsuario:jwt(value).Id})
+                this.setState({token:value})
+                console.warn(value);
             }
         } catch (error) {
             
@@ -48,8 +50,11 @@ export default class cadastrar extends Component {
     render() {
         return (
             <View style={styles.textAreaContainer}>
-                <Cabecalho />
-                <Text style={styles.titulo}>Cadastrar Projeto</Text>
+              
+              <View style={styles.header}>
+            <Text style={styles.headertxt}>Roman</Text>
+        </View>
+            <Text style={styles.titulo}>{"Cadastrar Projetos".toUpperCase()}</Text>
                 <TextInput
                     style={styles.input}
                     
@@ -88,17 +93,39 @@ export default class cadastrar extends Component {
 }
 
 const styles = StyleSheet.create({
+    header:{
+        backgroundColor:"#ebecea",
+        borderBottomColor:"#b5b5b5",
+        borderBottomWidth:2,
+        height:50,
+    },
+    headertxt:{
+        color:"#505050",
+        textAlign:"center",
+        padding:10,
+        fontSize:22,
+        fontWeight:"100",
+        fontFamily:"Eras ITC"
+    },
     titulo: {
-        textAlign: "center",
-        fontSize: 22,
-        fontFamily: "Eras ITC",
-        marginBottom: 20
+        position:"relative",
+        left:130,
+        marginTop:50,
+        fontSize:18,
+        fontWeight:"300",
+        textAlign:'center',
+        color:"black",
+        borderBottomColor:"#2E7D32",
+        borderBottomWidth:2 ,
+        width:150,
+        backgroundColor:"#f1f1f1"
     },
     input: {
         width: 300,
         backgroundColor: "transparent",
         borderBottomColor: "green",
-        borderBottomWidth: 2
+        borderBottomWidth: 2,
+       
     },
     button:{
         height:39,

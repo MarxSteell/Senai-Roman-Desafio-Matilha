@@ -19,7 +19,8 @@ const MainNavigator = createBottomTabNavigator(
             activeBackgroundColor: "#115220",
             style: {
               height: 50,
-             
+            borderTopColor:"black",
+            borderTopWidth:2
               
             },
             labelStyle:{

@@ -16,13 +16,14 @@ class Login extends Component{
         }
     }
     realizarLogin = async() =>{
-        console.warn(this.state.email+this.state.senha);
+      
         const resposta = await api.post("/login",{
             email: this.state.email,
             senha: this.state.senha
         });
         const token = resposta.data.token;
-        console.warn(token);
+      
+    
         await AsyncStorage.setItem("RomanMatilha",token);
         this.props.navigation.navigate("MainNavigator");
     }
